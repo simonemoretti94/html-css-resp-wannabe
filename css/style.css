@@ -149,6 +149,8 @@ img {
         padding: 0;
     }
 
+    .row {flex-direction: column;}
+
     .lessons .col,
     .steps .col,
     .why-us .col-left,
@@ -157,11 +159,16 @@ img {
         margin-bottom: 1.5rem;
     }
 
-    .steps {
+    .steps,
+    .why-us {
         margin-bottom: 0;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     }
 
-    .row {flex-direction: column;}
+    div.col-right h3,
+    div.col-right p {
+        text-align: center;
+    }
+
  }
 
